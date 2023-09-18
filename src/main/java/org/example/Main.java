@@ -50,7 +50,7 @@ public class Main {
 
         // Заполняем людьми
         while (true) {
-            System.out.println("Enter new record: ");
+            System.out.println("Enter new record (FirstName MiddleName LastName, Phone): ");
             person = in.nextLine();
             if (person.equalsIgnoreCase("end")){
                 System.out.println("-".repeat(15) + "EXIT" + "-".repeat(15));
@@ -62,9 +62,6 @@ public class Main {
         }
 
         phonebook.print();
-
-
-
 
     }
 }
